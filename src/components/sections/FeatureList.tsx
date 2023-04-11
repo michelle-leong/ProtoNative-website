@@ -12,8 +12,8 @@ const FeatureList = (): JSX.Element => {
     {
       title: 'Add Custom Components',
       description:
-        'Make reusable custom components using the Add Custom Component button. Make a components stateful by pressing the State button for each component.',
-      img: 'xyz',
+        'Make reusable custom components using the Add Custom Component button. ',
+      img: 'https://raw.githubusercontent.com/oslabs-beta/ProtoNative/readme/gifs/Adding-custom-components.gif',
     },
     {
       title: 'Create Layouts on Canvas',
