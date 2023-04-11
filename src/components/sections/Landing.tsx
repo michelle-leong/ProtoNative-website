@@ -19,22 +19,16 @@ const Landing = (): JSX.Element => {
             </div>
           </div>
         </a>
-        <div className='download'>
-          <div className='download-content'>
-            <img src='./icons/apple-logo.png' />
-            <div>
-              <p>Download for Mac</p>
-              <div id='download-links'>
-                <a href='./downloads/ProtoNative-1.0.0-arm64.dmg' download>
-                  <span>Apple Chip</span>
-                </a>
-                <a href='./downloads/ProtoNative-1.0.0-intel.dmg' download>
-                  <span>Intel Chip</span>
-                </a>
+        <a href=''>
+          <div className='download'>
+            <div className='download-content'>
+              <img src='./icons/apple-logo.png' />
+              <div>
+                <p>Download for Mac</p>
               </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );

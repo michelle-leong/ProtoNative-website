@@ -12,31 +12,31 @@ const Team = (): JSX.Element => {
   const profiles: profileObj[] = [
     {
       name: 'Jonathan Klibansky',
-      img: '../../../profiles/jonathan.jpg',
+      img: './profiles/jonathan.jpg',
       github: 'https://github.com/jon19200',
       linkedin: 'https://linkedin.com/in/jonathanklibansky',
     },
     {
       name: 'Matthew Kymn',
-      img: '../../../profiles/jonathan.jpg',
+      img: './profiles/matt.png',
       github: 'https://github.com/mkymn10',
       linkedin: 'https://github.com/mkymn10',
     },
     {
       name: 'Michelle Leong',
-      img: '../../../profiles/michelle.png',
+      img: './profiles/michelle.png',
       github: 'https://github.com/michelle-leong',
       linkedin: 'https://linkedin.com/in/michelle-w-leong',
     },
     {
       name: 'Raymond Ferrer',
-      img: '../../../profiles/michelle.png',
+      img: './profiles/michelle.png',
       github: 'https://github.com/rnferrer',
       linkedin: 'https://linkedin.com/in/rnferrer',
     },
     {
       name: 'Patricia Good',
-      img: '../../../profiles/patricia.png',
+      img: './profiles/patricia.png',
       github: 'https://github.com/pkg415',
       linkedin: 'https://linkedin.com/in/patricia-g415/',
     },
@@ -53,7 +53,6 @@ const Team = (): JSX.Element => {
       />
     );
   });
-  console.log(profileEle);
 
   return (
     <div id='team-section'>

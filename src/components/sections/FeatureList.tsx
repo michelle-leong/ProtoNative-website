@@ -7,7 +7,7 @@ type featureObj = {
   img: string;
 };
 
-const GettingStarted = (): JSX.Element => {
+const FeatureList = (): JSX.Element => {
   const features: featureObj[] = [
     { title: 'Add', description: 'xyz', img: 'xyz' },
   ];
@@ -31,4 +31,4 @@ const GettingStarted = (): JSX.Element => {
   );
 };
 
-export default GettingStarted;
+export default FeatureList;

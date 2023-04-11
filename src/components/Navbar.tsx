@@ -13,7 +13,7 @@ const NavBar = (): JSX.Element => {
             </Link>
           </li>
           <li>
-            <Link activeClass='active' to='team-section'>
+            <Link activeClass='active' smooth spy to='team-section'>
               Meet the Team
             </Link>
           </li>
