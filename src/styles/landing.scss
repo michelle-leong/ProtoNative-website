@@ -1,0 +1,63 @@
+#landing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  width: 100%;
+  h1{
+    text-align: center;
+  }
+  #main-logo{
+    animation: fadeIn 2s
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -20%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+
+#downloads-container {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-top: 2rem;
+  .download{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 250px;
+    background-color: #0cb3ee;
+    color: white;
+  }
+}
+
+.download-content{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  img {
+    width: 40px;
+  }
+  p{
+    margin-left: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+
+a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+

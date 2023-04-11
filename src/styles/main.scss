@@ -6,13 +6,21 @@
   padding: 0;
 }
 
+body {
+  font-family: sans-serif;
+}
+
+a {
+  font-family: sans-serif;
+}
 
 nav {
   background-color: $primary-color;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 5px 0;
-  
+  height: 80px;
   a {
     color: white;
   }
@@ -41,20 +49,9 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#downloads-container {
-  display: flex;
-  // align-items: center;
-}
-
-.download{
-  display: flex;
-  align-items: center;
-  img {
-    width: 40px;
-  }
-
+  margin-bottom: 20px;
 }
 
 
+@import 'landing.scss';
+@import 'team.scss';

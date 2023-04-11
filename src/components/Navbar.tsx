@@ -18,10 +18,14 @@ const NavBar = (): JSX.Element => {
             </Link>
           </li>
           <li>
-            <img className='ext-links' src='./icons/github.png' />
+            <a href='https://github.com/oslabs-beta/ProtoNative'>
+              <img className='ext-links' src='./icons/github.svg' />
+            </a>
           </li>
           <li>
-            <img className='ext-links' src='./icons/linkedin.png' />
+            <a href='https://www.linkedin.com/company/protonative/'>
+              <img className='ext-links' src='./icons/linkedin.svg' />
+            </a>
           </li>
         </ul>
       </nav>
