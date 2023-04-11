@@ -40,6 +40,9 @@
     }
   }
 }
+.active:hover{
+  text-decoration: none;
+}
 
 #downloads-container {
   display: flex;
