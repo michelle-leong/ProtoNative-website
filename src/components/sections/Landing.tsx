@@ -4,7 +4,9 @@ const Landing = (): JSX.Element => {
   return (
     <div id='landing'>
       <div id='main-logo-container'>
-        <img id='main-logo' src='./icons/logo-word.png' />
+        <div id='main-img-container'>
+          <img id='main-logo' src='./icons/logo-word.png' />
+        </div>
         <div id='main-logo-glow'></div>
       </div>
       <h1>

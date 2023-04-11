@@ -9,8 +9,8 @@
   h1 {
     text-align: center;
     color: rgba(255, 255, 255, 0.735);
-    width: 80%;
-    font-size: max(2.25vw, 0.95rem);
+    width: 90%;
+    font-size: max(1.75vw, 0.95rem);
   }
   #main-logo {
     border-radius: 10%;
@@ -34,6 +34,17 @@
     position: relative;
     animation: fadeIn 2s;
     margin-bottom: 5rem;
+  }
+  #main-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
   @keyframes fadeIn {
     from {
@@ -63,7 +74,7 @@
     border: 1px solid black;
     border-radius: 10px;
     padding: 0.8em;
-    font-size: max(1.35vw, 0.8rem);
+    font-size: max(1vw, 0.8rem);
     max-width: 15em;
     background-color: #0cb3ee;
     color: white;

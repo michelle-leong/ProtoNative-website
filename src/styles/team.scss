@@ -23,9 +23,14 @@
   width: 200px;
   height: 250px;
   border-radius: 10px;
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .profile {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: auto;
     border-radius: 50%;
   }
   img {
