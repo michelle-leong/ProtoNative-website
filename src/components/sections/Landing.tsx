@@ -15,22 +15,24 @@ const Landing = (): JSX.Element => {
       </h1>
       <div id='downloads-container'>
         <a href='./downloads/ProtoNative-Setup-1.0.0.exe' download>
-          <div className='download'>
+          <button className='download'>
             <div className='download-content'>
-              <img src='./icons/windows-logo.png' />
+              <div className='download-img-container'>
+                <img src='./icons/windows-logo.png' />
+              </div>
               <p>Download for Windows</p>
             </div>
-          </div>
+          </button>
         </a>
         <a href=''>
-          <div className='download'>
+          <button className='download'>
             <div className='download-content'>
-              <img src='./icons/apple-logo.png' />
-              <div>
-                <p>Download for Mac</p>
+              <div className='download-img-container'>
+                <img src='./icons/apple-logo.png' />
               </div>
+              <p>Download for Mac</p>
             </div>
-          </div>
+          </button>
         </a>
       </div>
     </div>

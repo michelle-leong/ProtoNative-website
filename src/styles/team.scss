@@ -8,6 +8,9 @@
 
 #team-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .team-card {
@@ -16,7 +19,7 @@
   align-items: center;
   justify-content: center;
   background-color: $button-primary;
-  margin: 0 5px;
+  margin: 1rem;
   width: 200px;
   height: 250px;
   border-radius: 10px;
