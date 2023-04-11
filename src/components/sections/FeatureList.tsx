@@ -43,7 +43,7 @@ const FeatureList = (): JSX.Element => {
       title: 'Export your Project',
       description:
         "Once you're finished with your project, export it to your local machine using the export button! The resulting folder contains all of your custom components, application folder, and package.json/app.json, app, all properly structured. Make sure to run 'npm install' before running your app, and your project will be ready to go!",
-      img: '',
+      img: './gifs/export.gif',
     },
   ];
 
