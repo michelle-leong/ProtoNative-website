@@ -14,7 +14,7 @@ const NavBar = (): JSX.Element => {
         </div>
         <ul id='menu-items'>
           <li>
-            <Link activeClass='active' smooth spy to='features-container'>
+            <Link activeClass='active' smooth spy={true} to='features-container'>
               Features
             </Link>
           </li>
