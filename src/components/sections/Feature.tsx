@@ -8,12 +8,12 @@ type Props = {
 
 const Feature = ({ title, description, img }: Props): JSX.Element => {
   return (
-    <div>
+    <div className='feature'>
       <div className='feature-text'>
         <h2>{title}</h2>
         <p>{description}</p>
       </div>
-      {/* <img src={img} */}
+      <img src={img} />
     </div>
   );
 };

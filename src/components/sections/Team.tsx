@@ -39,7 +39,7 @@ const Team = (): JSX.Element => {
       name: 'Patricia Good',
       img: './profiles/patricia.png',
       github: 'https://github.com/pkg415',
-      linkedin: 'https://linkedin.com/in/patricia-g415/',
+      linkedin: 'https://linkedin.com/in/patricia-g415',
     },
   ];
 

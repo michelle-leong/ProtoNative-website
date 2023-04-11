@@ -6,3 +6,19 @@
   background-color: $background-two;
   text-align: center;
 }
+
+.feature {
+  display: flex;
+  margin-bottom: 30px;
+  img {
+  width: 650px;
+  }
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  margin-right: 50px;
+}
