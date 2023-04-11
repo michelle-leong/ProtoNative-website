@@ -12,7 +12,7 @@ const NavBar = (): JSX.Element => {
           <span className='line line2'></span>
           <span className='line line3'></span>
         </div>
-        <ul>
+        <ul id='menu-items'>
           <li>
             <Link activeClass='active' smooth spy to='features-container'>
               Features
@@ -23,19 +23,21 @@ const NavBar = (): JSX.Element => {
               Meet the Team
             </Link>
           </li>
-          <li>
-            <img className='ext-links' src='./icons/medium.svg' />
-          </li>
-          <li>
-            <a href='https://github.com/oslabs-beta/ProtoNative'>
-              <img className='ext-links' src='./icons/github.svg' />
-            </a>
-          </li>
-          <li>
-            <a href='https://www.linkedin.com/company/protonative/'>
-              <img className='ext-links' src='./icons/linkedin.svg' />
-            </a>
-          </li>
+          <div id='ext-links-container'>
+            <li>
+              <img className='ext-links' src='./icons/medium.svg' />
+            </li>
+            <li>
+              <a href='https://github.com/oslabs-beta/ProtoNative'>
+                <img className='ext-links' src='./icons/github.svg' />
+              </a>
+            </li>
+            <li>
+              <a href='https://www.linkedin.com/company/protonative/'>
+                <img className='ext-links' src='./icons/linkedin.svg' />
+              </a>
+            </li>
+          </div>
         </ul>
       </nav>
     </div>
