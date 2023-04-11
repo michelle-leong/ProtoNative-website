@@ -37,13 +37,13 @@ const FeatureList = (): JSX.Element => {
       title: 'Tree Hierarchy',
       description:
         "Visualize your project by pressing the tree tab. Display states of a stateful component by pressing the info button! The tree is easily customizable to a user's preference. Nodes are easily repositioned by dragging and the orientation of the tree can be switched by pressing the arrow key in the bottom right.",
-      img: './gifs/tree-hierarchy-state.gif',
+      img: './demo-pictures/tree-hierarchy.png',
     },
     {
       title: 'Export your Project',
       description:
         "Once you're finished with your project, export it to your local machine using the export button! The resulting folder contains all of your custom components, application folder, and package.json/app.json, app, all properly structured. Make sure to run 'npm install' before running your app, and your project will be ready to go!",
-      img: './gifs/export.gif',
+      img: 'https://drive.google.com/file/d/1dzWRAiSGqTkCva-TH1v6wBOAP5mMvXrL/preview',
     },
   ];
 
