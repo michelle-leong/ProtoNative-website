@@ -1,8 +1,15 @@
 import React from 'react';
 import TeamCard from './TeamCard';
 
+type profileObj = {
+  name: string;
+  img: string;
+  github: string;
+  linkedin: string;
+};
+
 const Team = (): JSX.Element => {
-  const profiles = [
+  const profiles: profileObj[] = [
     {
       name: 'Jonathan Klibansky',
       img: '../../../profiles/jonathan.jpg',

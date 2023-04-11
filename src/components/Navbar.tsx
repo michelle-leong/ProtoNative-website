@@ -5,17 +5,20 @@ const NavBar = (): JSX.Element => {
   return (
     <div>
       <nav>
-        <img id='logo' src='./icons/logo-icon.png' />
+        <img id='logo' src='./icons/logo-no-background.png' />
         <ul>
           <li>
-            <Link activeClass='active' smooth spy to='getting-started'>
+            <Link activeClass='active' smooth spy to='features-container'>
               Getting Started
             </Link>
           </li>
           <li>
-            <Link activeClass='active' to='team'>
+            <Link activeClass='active' to='team-section'>
               Meet the Team
             </Link>
+          </li>
+          <li>
+            <img className='ext-links' src='./icons/medium.svg' />
           </li>
           <li>
             <a href='https://github.com/oslabs-beta/ProtoNative'>
