@@ -1,0 +1,36 @@
+nav {
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  a {
+    color: white;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    list-style-type: none;
+
+    li {
+      margin: 0.5rem;
+    }
+  }
+}
+
+#logo {
+  margin-left: 20px;
+  width: 350px;
+}
+
+.ext-links {
+  width: 30px;
+  height: 30px;
+}
