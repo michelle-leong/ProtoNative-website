@@ -3,7 +3,10 @@ import React from 'react';
 const Landing = (): JSX.Element => {
   return (
     <div id='landing'>
-      <img id='main-logo' src='./icons/logo-word.png' />
+      <div id='main-logo-container'>
+        <img id='main-logo' src='./icons/logo-word.png' />
+        <div id='main-logo-glow'></div>
+      </div>
       <h1>
         ProtoNative is a React Native Prototyping Tool for mobile developers.
         With its seamless drag-and-drop interface, live code preview, and much,

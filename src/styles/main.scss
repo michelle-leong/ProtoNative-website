@@ -19,7 +19,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 0;
+  padding: 1rem 0;
   height: 80px;
   a {
     color: white;
@@ -28,8 +28,12 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 25%;
+    width: 30%;
     list-style-type: none;
+
+    li {
+      margin: 0.5rem;
+    }
   }
 }
 
@@ -53,3 +57,4 @@ nav {
 
 @import 'landing.scss';
 @import 'team.scss';
+@import 'feature.scss';

@@ -5,11 +5,28 @@
   justify-content: center;
   height: 70vh;
   width: 100%;
+  background-color: $background-one;
   h1{
     text-align: center;
+    color: rgba(255, 255, 255, 0.618);
+    width: 80%;
   }
   #main-logo{
-    animation: fadeIn 2s
+    border-radius: 10%;
+    border-color: transparent;
+    z-index: 999;
+  }
+  #main-logo-glow{
+    width: 100%;
+    z-index: 998;
+    position: absolute;
+    top: 50%;
+    box-shadow: 0 0 100px 50px rgb(121, 136, 219);
+
+  }
+  #main-logo-container{
+    position: relative;
+    animation: fadeIn 2s;
   }
   @keyframes fadeIn {
     from {

@@ -30,7 +30,7 @@ const Team = (): JSX.Element => {
     },
     {
       name: 'Raymond Ferrer',
-      img: './profiles/michelle.png',
+      img: './profiles/raymond.jpg',
       github: 'https://github.com/rnferrer',
       linkedin: 'https://linkedin.com/in/rnferrer',
     },
