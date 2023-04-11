@@ -20,7 +20,7 @@ const Team = (): JSX.Element => {
       name: 'Matthew Kymn',
       img: './profiles/matt.png',
       github: 'https://github.com/mkymn10',
-      linkedin: 'https://github.com/mkymn10',
+      linkedin: 'https://linkedin.com/in/mkymn10',
     },
     {
       name: 'Michelle Leong',

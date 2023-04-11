@@ -30,9 +30,8 @@ nav {
     align-items: center;
     width: 30%;
     list-style-type: none;
-
     li {
-      margin: 0.5rem;
+      margin: 1em;
     }
   }
 }
@@ -47,13 +46,12 @@ nav {
   height: 30px;
 }
 
-#main-container{
+#main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
 }
-
 
 @import 'landing.scss';
 @import 'team.scss';
