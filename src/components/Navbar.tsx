@@ -6,10 +6,16 @@ const NavBar = (): JSX.Element => {
     <div>
       <nav>
         <img id='logo' src='./icons/logo-no-background.png' />
+        <input className='checkbox' type='checkbox' name='' id='' />
+        <div className='hamburger-lines'>
+          <span className='line line1'></span>
+          <span className='line line2'></span>
+          <span className='line line3'></span>
+        </div>
         <ul>
           <li>
             <Link activeClass='active' smooth spy to='features-container'>
-              Getting Started
+              Features
             </Link>
           </li>
           <li>

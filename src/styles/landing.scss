@@ -21,17 +21,18 @@
     z-index: 998;
     position: absolute;
     top: 50%;
-    box-shadow: 0 0 100px 100px rgb(121, 136, 219);
+    box-shadow: 0 0 100px 40px rgb(121, 136, 219);
     opacity: 40%;
   }
   #main-logo-container{
     position: relative;
     animation: fadeIn 2s;
+    margin-bottom: 5rem;
   }
   @keyframes fadeIn {
     from {
       opacity: 0;
-      transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -50%, 0);
     }
     to {
       opacity: 1;
