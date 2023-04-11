@@ -18,6 +18,9 @@ nav {
     height: 100%;
     width: 30%;
     margin-right: 1rem;
+    li:hover{
+      font-weight: bolder;
+    }
   }
   .checkbox{
     opacity: 0;
@@ -25,17 +28,13 @@ nav {
   #ext-links-container{
     display: flex;
     justify-content: space-between;
-    width: 33%;
+    width: 40%;
   }
 }
 
 #logo {
   margin-left: 20px;
   width: 350px;
-}
-
-.active{
-  text-decoration: none !important;
 }
 
 .ext-links {
@@ -53,7 +52,7 @@ nav {
     width: 100%;
     list-style-type: none;
     position: absolute;
-    background-color: gray;
+    background-color: $background-two;
     transform: translateX(150%);
     transition: transform 0.5s ease-in-out;
     height: fit-content;

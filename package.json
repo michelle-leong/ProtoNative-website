@@ -20,6 +20,7 @@
   "homepage": "https://github.com/michelle-leong/ProtoNative-website#readme",
   "dependencies": {
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.3",
     "react-dom": "^18.2.0",
     "react-scroll": "^1.8.9",
     "scss": "^0.2.4"

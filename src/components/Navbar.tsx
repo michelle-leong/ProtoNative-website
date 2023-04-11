@@ -14,12 +14,12 @@ const NavBar = (): JSX.Element => {
         </div>
         <ul id='menu-items'>
           <li>
-            <Link activeClass='active' smooth spy={true} to='features-container'>
+            <Link smooth spy={true} to='features-container' style={{textDecoration: 'none'}}>
               Features
             </Link>
           </li>
           <li>
-            <Link activeClass='active' smooth spy to='team-section'>
+            <Link activeClass='active' smooth spy to='team-section' style={{textDecoration: 'none'}}>
               Meet the Team
             </Link>
           </li>

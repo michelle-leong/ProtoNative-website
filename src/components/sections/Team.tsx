@@ -1,5 +1,6 @@
 import React from 'react';
 import TeamCard from './TeamCard';
+import { Fade } from 'react-awesome-reveal';
 
 type profileObj = {
   name: string;
@@ -56,8 +57,10 @@ const Team = (): JSX.Element => {
 
   return (
     <div id='team-section'>
-      <h1>Meet the Team</h1>
-      <div id='team-container'>{profileEle}</div>
+      <Fade cascade>
+        <h1>Meet the Team</h1>
+        <div id='team-container'>{profileEle}</div>
+      </Fade>
     </div>
   );
 };
