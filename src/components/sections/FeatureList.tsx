@@ -10,28 +10,34 @@ type featureObj = {
 const FeatureList = (): JSX.Element => {
   const features: featureObj[] = [
     {
+      title: 'Create Layouts on the App Canvas',
+      description:
+        'Add elements to app canvas and custom component details to create a layout of your application. Elements that allow nesting will highlight in yellow upon hovering an element. Remove elements by dragging them to the trash area. The code preview will be updated as elements are added and removed!',
+      img: 'https://raw.githubusercontent.com/oslabs-beta/ProtoNative/readme/gifs/Adding-elements-to-App-Canvas.gif',
+    },
+    {
       title: 'Add Custom Components',
       description:
-        'Make reusable custom components using the Add Custom Component button. ',
+        'Make reusable custom components using the Add Custom Component button. Customize the layout by dragging elements from the Add Child section!',
       img: 'https://raw.githubusercontent.com/oslabs-beta/ProtoNative/readme/gifs/Adding-custom-components.gif',
     },
     {
-      title: 'Create Layouts on Canvas',
+      title: 'Stateful Components',
       description:
-        'Add elements to app canvas and custom component details to create a layout of your application. Elements that allow nesting are will highlight in yellow upon hovering an element. Custom components can only be edited by selecting them from the components list! The code preview displays the corresponding code based on the active component. The preview will be updated as elements are added and removed!',
-      img: '',
+        'Make a components stateful by pressing the State button next to it. Add and delete states in the modal.',
+      img: 'https://raw.githubusercontent.com/oslabs-beta/ProtoNative/readme/gifs/Add-state-to-components.gif',
     },
     {
-      title: 'Deleting Components',
+      title: 'Nested Custom Components',
       description:
-        'Remove elements from the canvas by dragging them to the trash area. Delete custom components from the component list and watch as all instances will be deleted from the canvas.',
-      img: '',
+        'Custom Components can be children of other custom components. These parent-child relationships will be reflected in the App Canvas as you customize your components.',
+      img: 'https://raw.githubusercontent.com/oslabs-beta/ProtoNative/readme/gifs/Add-reuseable-components-as-child.gif',
     },
     {
       title: 'Tree Hierarchy',
       description:
         "Visualize your project by pressing the tree tab. Display states of a stateful component by pressing the info button! The tree is easily customizable to a user's preference. Nodes are easily repositioned by dragging and the orientation of the tree can be switched by pressing the arrow key in the bottom right.",
-      img: '',
+      img: './gifs/tree-hierarchy-state.gif',
     },
     {
       title: 'Export your Project',
