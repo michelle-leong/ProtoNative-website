@@ -9,6 +9,7 @@ nav {
   top: 0;
   width: 100%;
   z-index: 1000;
+  box-shadow: 0 0 10px 1px black;
   ul{
     list-style: none;
     display: flex;
@@ -50,7 +51,7 @@ nav {
   height: 30px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
   #menu-items{
     z-index: 999;
     top: 80px;

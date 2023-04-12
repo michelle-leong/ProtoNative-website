@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 module.exports = defineConfig({
   base: '',
   plugins: [
-    reactPlugin(),
+    react(),
   ],
   build: {
     outDir: 'docs',
