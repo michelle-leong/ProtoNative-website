@@ -81,10 +81,7 @@
     padding: 0.8em;
     font-size: max(0.9vw, 0.8rem);
     max-width: 15em;
-    // background-color: #0cb3ee;
     background-color: $button-primary;
-    // color: white;
-    margin: 0 1em;
     text-align: center;
     max-height: 100%;
     transition: 0.2s;
@@ -108,9 +105,18 @@
       }
     }
   }
+  #download-btn-spacing {
+    margin: 0 1em;
+  }
   .download:hover {
     background-color: #b353fc;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  #downloads-container {
+    display: none;
   }
 }
 

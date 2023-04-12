@@ -26,6 +26,7 @@ const Landing = (): JSX.Element => {
             </div>
           </button>
         </a>
+        <div id="download-btn-spacing"></div>
         <a href='https://github.com/oslabs-beta/ProtoNative/releases/download/v1.0.0/ProtoNative-Mac.dmg' download>
           <button className='download'>
             <div className='download-content'>
