@@ -22,7 +22,7 @@ const FeatureList = (): JSX.Element => {
       description:
         'Make a components stateful by pressing the State button next to it. Add and delete states in the modal.',
       img: 'https://raw.githubusercontent.com/oslabs-beta/ProtoNative/readme/gifs/Add-state-to-components.gif',
-      class: 'gif',
+      gif: true,
     },
     {
       title: 'Nested Custom Components',
