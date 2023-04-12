@@ -7,7 +7,8 @@
   width: 100%;
   margin-top: 80px;
   background-color: $background-one;
-  box-shadow: 0 0 100px 100px black;
+  box-shadow: 0 0 15px 3px black;
+  z-index: 100;
   h1 {
     text-align: center;
     color: rgba(255, 255, 255, 0.735);

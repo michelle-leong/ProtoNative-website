@@ -65,8 +65,11 @@ nav {
     transform: translateX(150%);
     transition: transform 0.5s ease-in-out;
     height: fit-content;
+    box-shadow: 0 0 10px 1px black;
+    z-index: 1002;
     li {
       font-size: 2rem;
+      font-weight: 200;
       margin: 0.5rem; 
       color: white;
     }
