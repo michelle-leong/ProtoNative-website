@@ -14,11 +14,7 @@
 .feature {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
-  img {
-  width: 650px;
-  border-radius: 5px;
-  }
+  margin-bottom: 50px;
 }
 
 .feature-text {
@@ -29,7 +25,7 @@
   max-width: 600px;
   min-height: 300px;
   height: 70%;
-  margin-right: 50px;
+  margin: 0 40px;
   // background-color: $feature-text;
   border-radius: 10px;
   h2 {
@@ -44,3 +40,11 @@
   }
 }
 
+.picture {
+  height: 400px;
+}
+
+.gif {
+  width: 650px;
+  border-radius: 5px;
+}
