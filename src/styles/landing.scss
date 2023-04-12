@@ -82,17 +82,20 @@
     // background-color: #0cb3ee;
     background-color: $button-primary;
     // color: white;
-    margin: 0 5rem;
+    margin: 0 5em;
     text-align: center;
     max-height: 100%;
     .download-content {
+      min-width: 140px;
       .download-img-container {
         display: flex;
         align-items: center;
+        min-height: 25%;
+        min-width: 25%;
         height: 25%;
         width: 25%;
         img {
-          width: 90%;
+          width: 100%;
           height: auto;
         }
       }
