@@ -13,13 +13,7 @@ const FeatureList = (): JSX.Element => {
       title: 'Create Layouts on the App Canvas',
       description:
         'Add elements to app canvas and custom component details to create a layout of your application. Elements that allow nesting will highlight in yellow upon hovering an element. Remove elements by dragging them to the trash area. The code preview will be updated as elements are added and removed!',
-      img: 'https://raw.githubusercontent.com/oslabs-beta/ProtoNative/readme/gifs/Adding-elements-to-App-Canvas.gif',
-    },
-    {
-      title: 'Add Custom Components',
-      description:
-        'Make reusable custom components using the Add Custom Component button. Customize the layout by dragging elements from the Add Child section!',
-      img: 'https://raw.githubusercontent.com/oslabs-beta/ProtoNative/readme/gifs/Adding-custom-components.gif',
+      img: 'https://raw.githubusercontent.com/oslabs-beta/ProtoNative/readme/gifs/canvas-elements.gif',
     },
     {
       title: 'Stateful Components',
@@ -43,7 +37,7 @@ const FeatureList = (): JSX.Element => {
       title: 'Export your Project',
       description:
         "Once you're finished with your project, export it to your local machine using the export button! The resulting folder contains all of your custom components, application folder, and package.json/app.json, app, all properly structured. Make sure to run 'npm install' before running your app, and your project will be ready to go!",
-      img: 'https://drive.google.com/file/d/1dzWRAiSGqTkCva-TH1v6wBOAP5mMvXrL/preview',
+      img: 'https://raw.githubusercontent.com/oslabs-beta/ProtoNative/readme/gifs/export.gif',
     },
   ];
 

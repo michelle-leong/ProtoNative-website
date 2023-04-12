@@ -9,6 +9,7 @@
 
 .feature {
   display: flex;
+  align-items: center;
   margin-bottom: 30px;
   img {
   width: 650px;
@@ -19,6 +20,21 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
   max-width: 600px;
+  min-height: 300px;
+  height: 80%;
   margin-right: 50px;
+  background-color: $feature-text;
+  border-radius: 10px;
+  h2 {
+    color: rgba(106, 9, 123, 0.8);
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  p {
+    margin: 0 10px;
+    text-align: center;
+  }
 }
+
