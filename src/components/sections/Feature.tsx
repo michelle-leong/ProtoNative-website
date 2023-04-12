@@ -21,13 +21,13 @@ const Feature = ({
     <div className='feature'>
       {index % 2 === 0 ? (
         <Fade direction='left'>
-          <div className='feature-text'>
+          <div id='feature-title-desc' className='feature-text'>
             <h2>{title}</h2>
             <p>{description}</p>
           </div>
         </Fade>
       ) : null}
-      <img className={className} src={img} />
+      <img id='gif' className={className} src={img} />
       {index % 2 === 1 ? (
         <Fade direction='right'>
           <div className='feature-text'>

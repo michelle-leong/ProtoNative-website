@@ -17,6 +17,21 @@
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 1000px) {
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    #feature-title-desc {
+      order: 1;
+    } 
+    #gif {
+      order: 2;
+    }
+  }
+}
+
 .feature-text {
   display: flex;
   flex-direction: column;
