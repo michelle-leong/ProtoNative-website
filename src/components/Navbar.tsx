@@ -5,13 +5,16 @@ const NavBar = (): JSX.Element => {
   return (
     <div>
       <nav>
-        <img id='logo' src='./icons/logo-no-background.png' />
-        <input className='checkbox' type='checkbox' name='' id='' />
-        <div className='hamburger-lines'>
-          <span className='line line1'></span>
-          <span className='line line2'></span>
-          <span className='line line3'></span>
+        <img id='logo-icon' src='./icons/logo-icon.png'/>
+        <div id='logo-container'>
+          <img id='logo' src='./icons/logo-no-background.png' />
         </div>
+        <input className='checkbox' type='checkbox' name='' id='' />      
+          <div className='hamburger-lines'>
+            <span className='line line1'></span>
+            <span className='line line2'></span>
+            <span className='line line3'></span>
+          </div>
         <ul id='menu-items'>
           <li>
             <Link smooth spy={true} to='features-container' style={{textDecoration: 'none'}}>
