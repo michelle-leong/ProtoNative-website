@@ -20,21 +20,38 @@ const Feature = ({
   return (
     <div className='feature'>
       {index % 2 === 0 ? (
-        <Fade direction='left'>
-          <div id='feature-title-desc' className='feature-text'>
-            <h2>{title}</h2>
-            <p>{description}</p>
+        <div>
+          <Fade direction='left' className='phone-screen-animation'>
+            <div id='feature-title-desc' className='feature-text'>
+              <h2>{title}</h2>
+              <p>{description}</p>
+            </div>
+          </Fade>
+          <div className='phone-screen-no-animation'>
+            <div id='feature-title-desc' className='feature-text'>
+                <h2>{title}</h2>
+                <p>{description}</p>
+            </div>
           </div>
-        </Fade>
+
+        </div>
       ) : null}
       <img id='gif' className={className} src={img} />
       {index % 2 === 1 ? (
-        <Fade direction='right'>
-          <div className='feature-text'>
-            <h2>{title}</h2>
-            <p>{description}</p>
+        <div>
+          <Fade direction='right' className='phone-screen-animation'>
+            <div className='feature-text'>
+              <h2>{title}</h2>
+              <p>{description}</p>
+            </div>
+          </Fade>
+          <div className='phone-screen-no-animation'>
+            <div className='feature-text'>
+                <h2>{title}</h2>
+                <p>{description}</p>
+            </div>
           </div>
-        </Fade>
+        </div>
       ) : null}
     </div>
   );
