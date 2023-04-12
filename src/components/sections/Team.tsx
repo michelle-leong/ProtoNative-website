@@ -21,7 +21,7 @@ const Team = (): JSX.Element => {
       name: 'Matthew Kymn',
       img: './profiles/matt.png',
       github: 'https://github.com/mkymn10',
-      linkedin: 'https://linkedin.com/in/mkymn10',
+      linkedin: 'https://www.linkedin.com/in/matthew-kymn',
     },
     {
       name: 'Michelle Leong',
@@ -33,13 +33,13 @@ const Team = (): JSX.Element => {
       name: 'Raymond Ferrer',
       img: './profiles/raymond.jpg',
       github: 'https://github.com/rnferrer',
-      linkedin: 'https://linkedin.com/in/rnferrer',
+      linkedin: 'https://linkedin.com/in/raymond-ferrer',
     },
     {
       name: 'Patricia Good',
       img: './profiles/patricia.png',
       github: 'https://github.com/pkg415',
-      linkedin: 'https://linkedin.com/in/patricia-g415',
+      linkedin: 'https://www.linkedin.com/in/patricia-good',
     },
   ];
 
