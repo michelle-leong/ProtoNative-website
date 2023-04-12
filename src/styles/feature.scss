@@ -5,6 +5,11 @@
   flex-direction: column;
   background-color: $background-two;
   text-align: center;
+  h1{
+    margin: 2rem 0;
+    font-size: 3rem;
+    font-weight: 400;
+  }
 }
 
 .feature {
