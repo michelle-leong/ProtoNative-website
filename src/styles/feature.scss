@@ -5,6 +5,7 @@
   flex-direction: column;
   background-color: $background-two;
   text-align: center;
+  padding: 0 2em;
   h1 {
     margin: 20px 0;
     font-size: 50px;
@@ -50,8 +51,9 @@
   width: 50%;
 }
 
-.picture{
-  width: 50%;
+.picture {
+  width: 30%;
+  margin: 0 8vw;
 }
 
 
@@ -77,8 +79,9 @@
     }
   }
   .picture {
-    height: 80%;
-    margin-left: 0 ;
+    width: 70%;
+    margin-left: 0;
+    margin-right: 0;
   }
   
   .gif {

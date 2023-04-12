@@ -33,7 +33,9 @@ const NavBar = (): JSX.Element => {
           </li>
           <div id='ext-links-container'>
             <li>
-              <img className='ext-links' src='./icons/medium.svg' />
+              <a href='https://medium.com/@patriciagood415/protonative-a-dynamic-react-native-prototyping-tool-fb205ea93615'>
+                <img className='ext-links' src='./icons/medium.svg' />
+              </a>
             </li>
             <li>
               <a href='https://github.com/oslabs-beta/ProtoNative'>

@@ -16,7 +16,7 @@ const Landing = (): JSX.Element => {
         Native.
       </h1>
       <div id='downloads-container'>
-        <a href='./downloads/ProtoNative-Setup-1.0.0.exe' download>
+        <a href='https://github.com/oslabs-beta/ProtoNative/releases/download/v1.0.0/ProtoNative-Windows.exe' download>
           <button className='download'>
             <div className='download-content'>
               <div className='download-img-container'>
@@ -26,7 +26,7 @@ const Landing = (): JSX.Element => {
             </div>
           </button>
         </a>
-        <a href=''>
+        <a href='https://github.com/oslabs-beta/ProtoNative/releases/download/v1.0.0/ProtoNative-Mac.dmg' download>
           <button className='download'>
             <div className='download-content'>
               <div className='download-img-container'>
