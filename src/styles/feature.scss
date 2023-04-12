@@ -5,6 +5,10 @@
   flex-direction: column;
   background-color: $background-two;
   text-align: center;
+  h1 {
+    margin: 20px 0;
+    font-size: 50px;
+  }
 }
 
 .feature {
@@ -13,6 +17,7 @@
   margin-bottom: 30px;
   img {
   width: 650px;
+  border-radius: 5px;
   }
 }
 
@@ -23,18 +28,19 @@
   align-content: center;
   max-width: 600px;
   min-height: 300px;
-  height: 80%;
+  height: 70%;
   margin-right: 50px;
-  background-color: $feature-text;
+  // background-color: $feature-text;
   border-radius: 10px;
   h2 {
-    color: rgba(106, 9, 123, 0.8);
-    font-weight: bolder;
-    margin-bottom: 5px;
+    color: $feature-header;
+    font-size: 30px;
+    margin-bottom: 15px;
   }
   p {
-    margin: 0 10px;
+    margin: 0 20px;
     text-align: center;
+    font-size: 18px;
   }
 }
 

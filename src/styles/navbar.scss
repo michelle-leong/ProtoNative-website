@@ -27,6 +27,9 @@ nav {
     justify-content: space-between;
     width: 33%;
   }
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 #logo {
@@ -37,6 +40,7 @@ nav {
 .active{
   text-decoration: none !important;
 }
+
 
 .ext-links {
   width: 30px;
