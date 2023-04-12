@@ -5,20 +5,16 @@
   flex-direction: column;
   background-color: $background-two;
   text-align: center;
-  h1{
-    margin: 2rem 0;
-    font-size: 3rem;
-    font-weight: 400;
+  h1 {
+    margin: 20px 0;
+    font-size: 50px;
   }
 }
 
 .feature {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
-  img {
-  width: 650px;
-  }
+  margin-bottom: 50px;
 }
 
 .feature-text {
@@ -28,18 +24,27 @@
   align-content: center;
   max-width: 600px;
   min-height: 300px;
-  height: 80%;
-  margin-right: 50px;
-  background-color: $feature-text;
+  height: 70%;
+  margin: 0 40px;
+  // background-color: $feature-text;
   border-radius: 10px;
   h2 {
-    color: rgba(106, 9, 123, 0.8);
-    font-weight: bolder;
-    margin-bottom: 5px;
+    color: $feature-header;
+    font-size: 30px;
+    margin-bottom: 15px;
   }
   p {
-    margin: 0 10px;
+    margin: 0 20px;
     text-align: center;
+    font-size: 18px;
   }
 }
 
+.picture {
+  height: 400px;
+}
+
+.gif {
+  width: 650px;
+  border-radius: 5px;
+}

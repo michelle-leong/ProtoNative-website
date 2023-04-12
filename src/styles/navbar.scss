@@ -30,12 +30,20 @@ nav {
     justify-content: space-between;
     width: 40%;
   }
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 #logo {
   margin-left: 20px;
   width: 350px;
 }
+
+.active{
+  text-decoration: none !important;
+}
+
 
 .ext-links {
   width: 30px;
