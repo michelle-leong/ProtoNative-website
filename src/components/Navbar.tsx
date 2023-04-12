@@ -2,6 +2,11 @@ import React from 'react';
 import { Link } from 'react-scroll';
 
 const NavBar = (): JSX.Element => {
+
+  const removeMenu = () => {
+    document.getElementById("checkbox").click();
+  }
+
   return (
     <div>
       <nav>
@@ -9,7 +14,7 @@ const NavBar = (): JSX.Element => {
         <div id='logo-container'>
           <img id='logo' src='./icons/logo-no-background.png' />
         </div>
-        <input className='checkbox' type='checkbox' name='' id='' />      
+        <input id='checkbox' type='checkbox' name='' />      
           <div className='hamburger-lines'>
             <span className='line line1'></span>
             <span className='line line2'></span>
@@ -17,12 +22,12 @@ const NavBar = (): JSX.Element => {
           </div>
         <ul id='menu-items'>
           <li>
-            <Link smooth spy={true} to='features-container' style={{textDecoration: 'none'}}>
+            <Link onClick={removeMenu} smooth spy={true} to='features-container' offset={-80} style={{textDecoration: 'none'}}>
               Features
             </Link>
           </li>
           <li>
-            <Link activeClass='active' smooth spy to='team-section' style={{textDecoration: 'none'}}>
+            <Link onClick={removeMenu} activeClass='active' smooth spy to='team-section' offset={-80} style={{textDecoration: 'none'}}>
               Meet the Team
             </Link>
           </li>
