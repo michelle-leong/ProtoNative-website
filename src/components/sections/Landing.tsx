@@ -39,6 +39,7 @@ const Landing = (): JSX.Element => {
         <a
           href='https://github.com/oslabs-beta/ProtoNative/releases/download/v1.0.0/ProtoNative-Mac.dmg'
           download
+          id='apple'
         >
           <button className='download'>
             <div className='download-content'>
@@ -48,6 +49,10 @@ const Landing = (): JSX.Element => {
               <p>Download for Mac</p>
             </div>
           </button>
+          <span id='tooltip-text'>
+            After downloading, go to System Preferences {'>'} Privacy and
+            Security {'>'} Security and give ProtoNative permission to open
+          </span>
         </a>
       </div>
     </div>

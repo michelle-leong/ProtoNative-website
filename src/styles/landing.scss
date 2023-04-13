@@ -150,3 +150,39 @@
     text-decoration: none;
   }
 }
+
+#apple {
+  position: relative;
+}
+
+#tooltip-text {
+  visibility: hidden;
+  min-width: 140px;
+  max-width: 15em;
+  
+  background-color: #3d3c3c;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 8px;
+  font-size: max(0.9vw, 0.8rem);
+  position: absolute;
+  z-index: 1;
+  top: 120%;
+
+}
+
+#tooltip-text::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%; 
+  left: 50%;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #3d3c3c transparent;
+}
+
+a:hover #tooltip-text {
+  visibility: visible;
+}
