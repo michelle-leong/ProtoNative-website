@@ -15,8 +15,17 @@ const Landing = (): JSX.Element => {
         much more, ProtoNative is your all-in-one tool for all things React
         Native.
       </h1>
+      <p>
+        Interested? Try our online{' '}
+        <a id='demo' href='https://oslabs-beta.github.io/ProtoNative/'>
+          demo!
+        </a>
+      </p>
       <div id='downloads-container'>
-        <a href='https://github.com/oslabs-beta/ProtoNative/releases/download/v1.0.0/ProtoNative-Windows.exe' download>
+        <a
+          href='https://github.com/oslabs-beta/ProtoNative/releases/download/v1.0.0/ProtoNative-Windows.exe'
+          download
+        >
           <button className='download'>
             <div className='download-content'>
               <div className='download-img-container'>
@@ -26,8 +35,11 @@ const Landing = (): JSX.Element => {
             </div>
           </button>
         </a>
-        <div id="download-btn-spacing"></div>
-        <a href='https://github.com/oslabs-beta/ProtoNative/releases/download/v1.0.0/ProtoNative-Mac.dmg' download>
+        <div id='download-btn-spacing'></div>
+        <a
+          href='https://github.com/oslabs-beta/ProtoNative/releases/download/v1.0.0/ProtoNative-Mac.dmg'
+          download
+        >
           <button className='download'>
             <div className='download-content'>
               <div className='download-img-container'>

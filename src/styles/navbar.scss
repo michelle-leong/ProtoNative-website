@@ -41,6 +41,7 @@ nav {
   }
   a:hover {
     text-decoration: none;
+    cursor: pointer;
   }
 }
 
@@ -53,12 +54,6 @@ nav {
     height: auto;
   }
 }
-
-
-.active{
-  text-decoration: none !important;
-}
-
 
 .ext-links {
   width: 30px;
@@ -125,8 +120,6 @@ nav {
   .hamburger-lines{
     width: 32px;
     height: 26px;
-    // width: 10%;
-    // height: 40%;
     max-width: 36px;
     max-height: 32px;
     position: absolute;

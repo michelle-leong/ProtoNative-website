@@ -14,8 +14,24 @@
     text-align: center;
     color: rgba(255, 255, 255, 0.735);
     width: 90%;
-    font-size: max(1.5vw, 0.95rem);
+    font-size: max(1.5vw, 1.2rem);
     font-weight: 200;
+  }
+  p {
+    margin-top: 1rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.735);
+    width: 90%;
+    font-size: max(1.5vw, 1.2rem);
+    font-weight: 200;
+  }
+  #demo {
+    color: $button-primary;
+    font-weight: 300;
+    text-decoration: none;
+  }
+  #demo:hover {
+    font-weight: 600;
   }
   #main-logo {
     border-radius: 10%;
@@ -84,7 +100,6 @@
     background-color: $button-primary;
     text-align: center;
     max-height: 100%;
-    transition: 0.2s;
     .download-content {
       min-width: 140px;
       .download-img-container {
@@ -106,7 +121,7 @@
     }
   }
   #download-btn-spacing {
-    margin: 0 1em;
+    margin: 0 2em;
   }
   .download:hover {
     background-color: #b353fc;
@@ -114,7 +129,7 @@
   }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 480px) {
   #downloads-container {
     display: none;
   }
@@ -134,9 +149,4 @@
   a {
     text-decoration: none;
   }
-}
-
-a:hover {
-  cursor: pointer;
-  text-decoration: underline;
 }
