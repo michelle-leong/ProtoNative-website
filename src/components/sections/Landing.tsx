@@ -23,7 +23,7 @@ const Landing = (): JSX.Element => {
       </p>
       <div id='downloads-container'>
         <a
-          href='https://github.com/oslabs-beta/ProtoNative/releases/download/v1.0.0/ProtoNative-Windows.exe'
+          href='https://github.com/oslabs-beta/ProtoNative/releases/download/v1.1.0/ProtoNative-Windows.exe'
           download
         >
           <button className='download'>
@@ -37,7 +37,7 @@ const Landing = (): JSX.Element => {
         </a>
         <div id='download-btn-spacing'></div>
         <a
-          href='https://github.com/oslabs-beta/ProtoNative/releases/download/v1.0.0/ProtoNative-Mac.dmg'
+          href='https://github.com/oslabs-beta/ProtoNative/releases/download/v1.1.0/ProtoNative-Mac.dmg'
           download
           id='apple'
         >
